@@ -1,0 +1,134 @@
+body {
+  background-color: #FAFCFE;
+  font-family: "PingFang SC";
+  padding: 0;
+  margin: 0;
+  border: 0;
+  letter-spacing: .03rem;
+}
+body .canvas {
+  width: 100%;
+  height: 15rem;
+  overflow: hidden;
+}
+body .layout_wrap {
+  background: #000000;
+  height: 15rem;
+}
+body .layout_wrap .daohang {
+  display: none;
+  position: absolute;
+  top: 1rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+}
+body .layout_wrap .daohang .tip {
+  text-align: center;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: .4rem;
+  border-bottom: 1px solid #dddddd;
+}
+body .layout_wrap .canvas_wrap {
+  width: 100%;
+  height: 15rem;
+  overflow: hidden;
+  margin-top: -8rem;
+}
+body .layout_wrap .header {
+  padding: .2rem .3rem;
+  height: .6rem;
+  background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#000000), to(#474747));
+}
+body .layout_wrap .header .menu {
+  width: 1rem;
+  margin-right: 2rem;
+}
+body .layout_wrap .header img {
+  display: inline-block;
+  width: 3rem;
+  height: .6rem;
+}
+body .layout_wrap .header .item {
+  height: .6rem;
+  line-height: .6rem;
+  vertical-align: middle;
+  color: #ffffff;
+  font-size: .25rem;
+  font-weight: bold;
+  float: right;
+}
+body .layout_wrap .header .item .tip {
+  display: none!important;
+}
+body .layout_wrap .header .item .change {
+  display: inline-block;
+  border: 1px solid #999999;
+  padding: 0 10px;
+  color: #999999;
+  cursor: pointer;
+}
+body .layout_wrap .header .item .change .sanjiao {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: .15rem solid #999999;
+  border-left: .1rem solid transparent;
+  border-right: .1rem solid transparent;
+}
+body .layout_wrap .banner {
+  text-align: center;
+  height: .6rem;
+  line-height: .6rem;
+  font-size: .45rem;
+  color: #ffffff;
+  padding-top: 5rem;
+}
+body .footer .mobile {
+  text-align: center;
+}
+body .footer .mobile_border {
+  width: 9rem;
+  height: 0;
+  border-bottom: .06rem dashed #000000;
+  margin: .8rem auto;
+}
+body .footer .ban {
+  display: block;
+  width: 4rem;
+  margin: .4rem auto;
+}
+body .footer .con {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 1rem;
+  margin-top: .4rem;
+  vertical-align: middle;
+  cursor: pointer;
+}
+body .footer .first {
+  margin-left: 1rem;
+}
+body .footer .last {
+  margin-right: 0;
+}
+body .footer .message {
+  font-size: .25rem;
+  font-weight: bold;
+  text-align: center;
+}
+body .footer .message p {
+  margin: 0;
+  font-size: .2rem;
+}
+.footer_rights {
+  height: .8rem;
+  line-height: .8rem;
+  font-size: .3rem;
+  text-align: center;
+  color: #999999;
+  background: #000000;
+}

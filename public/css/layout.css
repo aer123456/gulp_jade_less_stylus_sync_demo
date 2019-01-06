@@ -1,0 +1,208 @@
+body {
+  background-color: #ffffff;
+  font-family: "PingFang SC";
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-width: 940px;
+  letter-spacing: .3em;
+}
+body .eng {
+  letter-spacing: .2em;
+}
+body h3 {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+body .mobile {
+  display: none!important;
+}
+body .canvas {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+body .layout_wrap {
+  background: #000000;
+  height: 550px;
+}
+body .layout_wrap .canvas_wrap {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+body .layout_wrap .canvas_wrap canvas {
+  height: 600px!important;
+}
+body .layout_wrap .canvas_wrap .down_wrap {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+}
+body .layout_wrap .canvas_wrap .down_wrap img.pc {
+  width: 40px;
+}
+@media screen and (max-width: 1000px) {
+  body .layout_wrap .canvas_wrap .down_wrap img.pc {
+    width: 30px;
+  }
+}
+body .layout_wrap .canvas_wrap .down_wrap img.mobile {
+  width: .5rem;
+}
+body .layout_wrap .header {
+  padding: 20px 30px;
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  box-sizing: border-box;
+}
+body .layout_wrap .header img {
+  display: inline-block;
+  width: 186px;
+  height: 40px;
+  float: left;
+}
+body .layout_wrap .header .item {
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  float: right;
+  cursor: pointer;
+}
+body .layout_wrap .header .item .tip {
+  display: inline-block;
+  padding: 0 15px;
+  margin: 0 15px;
+  position: relative;
+  border-bottom: 1px dashed #000000;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+body .layout_wrap .header .item .tip:hover {
+  border-bottom: 1px dashed #ffffff;
+}
+body .layout_wrap .header .item .selectTip {
+  border-bottom: 1px dashed #ffffff;
+}
+body .layout_wrap .header .item .change {
+  display: inline-block;
+  border: 1px solid #ffffff;
+  padding: 0 10px;
+  margin-left: 40px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+body .layout_wrap .header .item .change .sanjiao {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 8px solid #ffffff;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+body .layout_wrap .header .item .change:hover {
+  background: #ffffff;
+  color: #000000;
+}
+body .layout_wrap .header .item .change:hover .sanjiao {
+  border-top: 8px solid #000000;
+}
+@media screen and (max-width: 1000px) {
+  body .layout_wrap .header .item .change {
+    width: 88px;
+    height: 30px;
+    line-height: 30px;
+  }
+}
+body .layout_wrap .banner {
+  text-align: center;
+  height: 74px;
+  line-height: 74px;
+  color: #ffffff;
+  padding-top: 220px;
+  position: absolute;
+  z-index: 998;
+  width: 100%;
+}
+body .layout_wrap .banner h3 {
+  font-size: 54px!important;
+}
+@media screen and (max-width: 1250px) {
+  body .layout_wrap .banner h3 {
+    font-size: 40px!important;
+  }
+}
+body .footer {
+  width: 940px;
+  margin: 0 auto 45px auto;
+  text-align: center;
+}
+body .footer .ban {
+  width: 220px;
+  height: 47px;
+  margin-right: 40px;
+  vertical-align: middle;
+}
+body .footer .con {
+  width: 42px;
+  height: 42px;
+  margin-right: 45px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+body .footer .last {
+  margin-right: 0;
+  padding-right: 30px;
+}
+body .footer .message {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-left: 30px;
+  text-align: left;
+}
+body .footer .message p {
+  margin: 0;
+}
+body .footer .gap {
+  display: inline-block;
+  width: 1px;
+  height: 60px;
+  background: #C8C8C8;
+  vertical-align: middle;
+}
+body .footer .gap1 {
+  margin-right: 35px;
+}
+.footer_rights {
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  background: #000000;
+}

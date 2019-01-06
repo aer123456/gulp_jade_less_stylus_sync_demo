@@ -1,0 +1,49 @@
+html
+    head
+        title BES
+        meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+        script(type="text/javascript", src="lib/flexible.js")
+        <link rel="icon" type="image/x-icon" href="img/pc/favicon.ico" />
+        link(rel="stylesheet", href="css/layout_mobile.css" media="(max-width:850px)")
+        link(rel="stylesheet", href="css/layout.css" media="(min-width:851px)")
+        script(type="text/javascript", src="lib/jquery-3.0.0.min.js")
+    block script
+    body
+        .layout_wrap
+            .daohang.mobile 
+                .tip.eng.hrefTo(href="#sec1") HOME
+                .tip.eng.hrefTo(href="#sec2") ABOUT US
+                .tip.eng.hrefTo(href="#secc3") BLOG
+                .tip.eng.hrefTo(href="#sec4") BES FULL NODES
+                .tip.selectTip.chn.hrefTo(href="#sec1") 主页
+                .tip.chn.hrefTo(href="#sec2") 关于我们
+                .tip.chn.hrefTo(href="#sec3") 博客
+                .tip.chn.hrefTo(href="#sec4") 节点成员
+            .header
+                img.mobile.menu(src="img/pc/menu.png", alt="")
+                img(src="img/pc/logo_white.png", alt="")
+                .item
+                    .tip.eng.hrefTo(href="#sec1") HOME
+                    .tip.eng.hrefTo(href="#sec2") ABOUT US
+                    .tip.eng.hrefTo(href="#secc3") BLOG
+                    .tip.eng.hrefTo(href="#sec4") BES FULL NODES
+                    .tip.chn.hrefTo(href="#sec1") 主页
+                    .tip.chn.hrefTo(href="#sec2") 关于我们
+                    .tip.chn.hrefTo(href="#secc3") 博客
+                    .tip.chn.hrefTo(href="#sec4") 节点成员
+                    .change 
+                        span.eng English  
+                        span.chn 中文    
+                        .sanjiao
+            .banner#sec1
+                h3.eng SHAPE FUTURE ECONOMIES WITH
+                h3.eng BLOCKCHAIN TECHNOLOG
+                h3.chn 发现并创造
+                h3.chn 区块链时代新经济体
+            .canvas_wrap
+                <div id="canvas" class="gradient" style="background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgb(0, 0, 0)), to(rgb(71, 71, 71)));"></div>
+                .down_wrap
+                    img.pc(src="img/pc/down1.png", alt="")
+                    img.mobile(src="img/pc/down.png", alt="")
+            
+    block content

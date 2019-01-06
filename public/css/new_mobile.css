@@ -1,0 +1,266 @@
+.pc {
+  display: none;
+}
+.chn {
+  display: none;
+}
+.secTitle {
+  font-size: .4rem;
+  text-align: center;
+  margin: .6rem 0;
+}
+.secSubTitle {
+  font-size: .3rem;
+  font-weight: bold;
+}
+.dashed {
+  border: 1px dashed #000000;
+}
+.down_wrap {
+  width: 100%;
+  position: absolute;
+  bottom: 2.5rem;
+  left: 0;
+  text-align: center;
+}
+.down_wrap img.mobile {
+  width: 1rem;
+}
+.sec1_wrap {
+  padding: 1.2rem .4rem .8rem .4rem;
+}
+.sec1_wrap .sec1 .article .title {
+  margin-bottom: .2rem;
+}
+.sec1_wrap .sec1 .article .desc {
+  font-size: .25rem;
+  color: #666666;
+  line-height: .5rem;
+}
+.sec1_wrap .sec1 .article .desc span {
+  display: block;
+  font-weight: bold;
+  color: #000000;
+}
+.sec1_wrap .sec1 .secImg {
+  width: 6rem;
+  height: 6rem;
+  display: block;
+  padding: .2rem;
+  margin: .6rem auto;
+}
+.sec1_wrap .sec1 .mobile_border {
+  width: 100%;
+  height: 0;
+  border-bottom: .06rem dashed #000000;
+  margin: .8rem auto;
+}
+.sec1_wrap .sec1 .one_title {
+  margin-bottom: .4rem;
+}
+.sec1_wrap .sec1 .arr {
+  display: none;
+}
+.sec1_wrap .sec1 .imgs .div {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background: #ffffff;
+  padding-top: .4rem;
+  padding-bottom: .5rem;
+  margin-bottom: .3rem;
+  border-radius: .05rem;
+  box-shadow: 0 0 .1rem #dddddd;
+}
+.sec1_wrap .sec1 .imgs .div img {
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0 auto .2rem auto;
+}
+.sec1_wrap .sec1 .imgs .div p {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  font-size: .4rem;
+  font-weight: bold;
+}
+.sec2 .blog {
+  background: #ffffff;
+  border-bottom: 3px solid #eeeeee;
+  padding: .4rem;
+  margin-bottom: .4rem;
+}
+.sec2 .blog .title {
+  font-weight: bold;
+}
+.sec2 .blog .mobile_border {
+  width: 100%;
+  height: 0;
+  border-bottom: .06rem dashed #000000;
+  margin: .4rem auto;
+}
+.sec2 .blog .desc {
+  color: #666666;
+  font-size: .2rem;
+}
+.sec2 .blog .more {
+  display: block;
+  width: 3rem;
+  height: .6rem;
+  line-height: .6rem;
+  font-size: .3rem;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid #000000;
+  text-decoration: none;
+  color: #000000;
+}
+.sec2 .blog .more img {
+  width: .6rem;
+  vertical-align: middle;
+  margin-left: .25rem;
+}
+.sec3 {
+  height: 15rem;
+  margin-top: -15rem;
+  text-align: center;
+  padding: .4rem;
+}
+.sec3 .man {
+  position: relative;
+  margin: 0 auto;
+}
+.sec3 .man .headers {
+  color: #ffffff;
+  font-size: 14px;
+}
+.sec3 .man .headers img {
+  display: block;
+  cursor: pointer;
+}
+.sec3 .man .headers span {
+  display: block;
+  width: 2rem;
+  text-align: center;
+  font-size: .4rem;
+}
+.sec3 .man .headers .small {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 1.2rem;
+  padding: .1rem;
+  border: 1px solid #ffffff;
+}
+.sec3 .man .headers .mid {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 1.6rem;
+  padding: .13rem;
+  border: 1px solid #ffffff;
+}
+.sec3 .man .headers .large {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 2rem;
+  padding: .16rem;
+  border: 1px solid #ffffff;
+}
+.sec3 .man .headers .head1 {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+.sec3 .man .headers .head2 {
+  position: absolute;
+  top: 8rem;
+  left: 4rem;
+}
+.sec3 .man .headers .head3 {
+  position: absolute;
+  top: 5rem;
+  left: .8rem;
+}
+.sec3 .man .headers .head4 {
+  position: absolute;
+  top: 10rem;
+  right: 1rem;
+}
+.sec3 .man .headers .head5 {
+  position: absolute;
+  top: 5rem;
+  right: .5rem;
+}
+.sec3 .man .headers .head6 {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+.sec3 .man .headers .head7 {
+  position: absolute;
+  top: 10rem;
+  left: 1rem;
+}
+.sec3 .man .headers .head8 {
+  position: absolute;
+  top: 3rem;
+  right: 1rem;
+}
+.sec3 .man .man_desc {
+  display: none;
+  position: relative;
+  width: 8rem;
+  background: #ffffff;
+  margin: 0 auto;
+  border-radius: .05rem;
+  box-shadow: 0 0 .1rem #dddddd;
+  padding: .3rem;
+}
+.sec3 .man .man_desc .close {
+  width: .4rem;
+  height: .4rem;
+  position: absolute;
+  top: .3rem;
+  right: .3rem;
+  cursor: pointer;
+}
+.sec3 .man .man_desc .head {
+  text-align: left;
+}
+.sec3 .man .man_desc .head img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid #000000;
+  vertical-align: middle;
+  margin-bottom: .3rem;
+}
+.sec3 .man .man_desc .head .title {
+  display: inline-block;
+  font-size: .25rem;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-left: .3rem;
+  margin-bottom: .25rem;
+}
+.sec3 .man .man_desc .head .title p {
+  margin: 0;
+}
+.sec3 .man .man_desc .head .desc {
+  font-size: .25rem;
+  line-height: .4rem;
+  padding-top: .4rem;
+  border-top: 1px dashed #000000;
+  color: #666666;
+}
+.sec3 .man h3 {
+  display: block;
+  color: #ffffff;
+}
+#sec3 {
+  width: 100%;
+  height: 15rem;
+  background-color: #000000;
+  overflow: hidden;
+  margin-top: .6rem;
+}
